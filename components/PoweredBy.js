@@ -11,7 +11,7 @@ export default function PoweredBy(props) {
       <a
         href='https://beian.miit.gov.cn'
         className='underline justify-start'>
-        NotionNext {siteConfig('VERSION')}
+        //NotionNext {siteConfig('VERSION')}
       </a>
       .
     </div>
