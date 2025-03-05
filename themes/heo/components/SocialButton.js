@@ -17,6 +17,8 @@ const SocialButton = () => {
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
   const CONTACT_WEIXIN = siteConfig('CONTACT_WEIXIN')
+  const CONTACT_QQ = siteConfig('CONTACT_QQ')
+  const CONTACT_CSDN = siteConfig('CONTACT_CSDN')
   return (
     <div className='w-full justify-center flex-wrap flex'>
       <div className='space-x-12 text-3xl text-gray-600 dark:text-gray-300 '>
@@ -117,6 +119,24 @@ const SocialButton = () => {
             title={'weixin'}
             href={CONTACT_WEIXIN}>
             <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_QQ && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'qq'}
+            href={CONTACT_QQ}>
+            <i className='transform hover:scale-125 duration-150 fab fa-qq dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_CSDN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'csdn'}
+            href={CONTACT_CSDN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-csdn dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
       </div>
