@@ -136,7 +136,7 @@ const SocialButton = () => {
             rel='noreferrer'
             title={'csdn'}
             href={CONTACT_CSDN}>
-            <i className='transform hover:scale-125 duration-150 fab fa-csdn dark:hover:text-indigo-400 hover:text-indigo-600' />
+            <i className='transform hover:scale-125 duration-150 fab fa-c dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
       </div>
