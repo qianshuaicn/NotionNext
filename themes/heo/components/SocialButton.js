@@ -16,6 +16,7 @@ const SocialButton = () => {
   const ENABLE_RSS = siteConfig('ENABLE_RSS')
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
+  const CONTACT_WEIXIN = siteConfig('CONTACT_WEIXIN')
   return (
     <div className='w-full justify-center flex-wrap flex'>
       <div className='space-x-12 text-3xl text-gray-600 dark:text-gray-300 '>
@@ -107,6 +108,15 @@ const SocialButton = () => {
             title={'youtube'}
             href={CONTACT_YOUTUBE}>
             <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_WEIXIN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'weixin'}
+            href={CONTACT_WEIXIN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
       </div>
