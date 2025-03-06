@@ -386,7 +386,7 @@ const Layout404 = props => {
               <LazyImage
                 className='error-img h-60 md:h-full p-4'
                 src={
-                  'https://cliente.gestorlite.com'
+                  'https://cliente.gestorlite.com/img/404.gif'
                 }></LazyImage>
 
               {/* 右侧文字 */}
