@@ -120,7 +120,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的微信讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入我的微信',
-  HEO_SOCIAL_CARD_URL: 'https://www.qianshuaiblog.cn/images/heo/weixin.png',
+  HEO_SOCIAL_CARD_URL: 'https://qianshuaiblog.cn/images/weixin.png',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
