@@ -46,8 +46,8 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: 'https://reward.qianshuaiblog.cn',
-  HEO_INFO_CARD_ICON1: 'fab apple-pay',
+  HEO_INFO_CARD_URL1: '',
+  HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://reward.qianshuaiblog.cn',
   HEO_INFO_CARD_ICON2: 'fab fa-alipay',
   HEO_INFO_CARD_URL3: 'https://reward.qianshuaiblog.cn/',
