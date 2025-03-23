@@ -46,12 +46,12 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: '/about',
+  HEO_INFO_CARD_URL1: '',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://reward.qianshuaiblog.cn',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_ICON2: 'fab fa-alipay',
   HEO_INFO_CARD_URL3: 'https://reward.qianshuaiblog.cn/',
-  HEO_INFO_CARD_TEXT3: '打赏',
+  HEO_INFO_CARD_TEXT3: '点击打赏',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
