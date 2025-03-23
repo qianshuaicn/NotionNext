@@ -40,21 +40,18 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！欢迎来到我的博客',
-    '人民万岁',
-    '一万年太久，只争朝夕',
+    '丢掉幻想，准备斗争',
     '星星之火，可以燎原',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '一万年太久，只争朝夕'
   ],
 
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: '',
+  HEO_INFO_CARD_URL2: 'https://reward.qianshuaiblog.cn',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://qianshuaiblog.cn',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: 'https://reward.qianshuaiblog.cn/',
+  HEO_INFO_CARD_TEXT3: '打赏',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
