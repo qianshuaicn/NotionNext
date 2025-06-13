@@ -1,16 +1,16 @@
 {
-  "id": "4949281",
+  "id": "4949282",
   "name": "no name",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
     {
-      "icon_id": "35378579",
-      "name": "icon_cicd",
-      "font_class": "icon_cicd",
-      "unicode": "e6d5",
-      "unicode_decimal": 59093
+      "icon_id": "15378529",
+      "name": "kubernetes",
+      "font_class": "kubernetes",
+      "unicode": "ebee",
+      "unicode_decimal": 60398
     }
   ]
 }
