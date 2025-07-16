@@ -23,7 +23,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: '',
   HEO_HERO_TITLE_4: '',
   HEO_HERO_TITLE_5: '',  //人民万岁
-  HEO_HERO_TITLE_LINK: 'https://www.bilibili.com/video/BV1z1421r7Cg/?share_source=copy_web&vd_source=cc2fecc7e690baf875cf05620ee32fb3&t=2007',
+  HEO_HERO_TITLE_LINK: 'https://qianshuaiblog.cn',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
