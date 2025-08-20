@@ -1,6 +1,4 @@
 import { siteConfig } from '@/lib/config'
-import { useRef } from 'react'
-import { handleEmailClick } from '@/lib/plugins/mailEncrypt'
 
 /**
  * 社交联系方式按钮组
@@ -18,9 +16,9 @@ const SocialButton = () => {
   const ENABLE_RSS = siteConfig('ENABLE_RSS')
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
-
-  const emailIcon = useRef(null)
-
+  const CONTACT_WEIXIN = siteConfig('CONTACT_WEIXIN')
+  const CONTACT_QQ = siteConfig('CONTACT_QQ')
+  const CONTACT_CSDN = siteConfig('CONTACT_CSDN')
   return (
     <div className='w-full justify-center flex-wrap flex'>
       <div className='space-x-12 text-3xl text-gray-600 dark:text-gray-300 '>
@@ -80,14 +78,14 @@ const SocialButton = () => {
         )}
         {CONTACT_EMAIL && (
           <a
-            onClick={e => handleEmailClick(e, emailIcon, CONTACT_EMAIL)}
-            title='email'
-            className='cursor-pointer'
-            ref={emailIcon}>
+            target='_blank'
+            rel='noreferrer'
+            title={'email'}
+            href={`mailto:${CONTACT_EMAIL}`}>
             <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
-        {ENABLE_RSS && (
+        {JSON.parse(ENABLE_RSS) && (
           <a
             target='_blank'
             rel='noreferrer'
@@ -112,6 +110,33 @@ const SocialButton = () => {
             title={'youtube'}
             href={CONTACT_YOUTUBE}>
             <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_WEIXIN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'weixin'}
+            href={CONTACT_WEIXIN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_QQ && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'qq'}
+            href={CONTACT_QQ}>
+            <i className='transform hover:scale-125 duration-150 fab fa-qq dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_CSDN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'csdn'}
+            href={CONTACT_CSDN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-c dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
       </div>
